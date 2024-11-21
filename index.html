@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Introducción -->
+    <header>
+        <h1>Hola, soy <span id="name">Juana Natalia Gutiérrez</span></h1>
+        <p>Contadora Pública Profesional con más de 10 años de experiencia en finanzas y asesoría fiscal.</p>
+    </header>
+
+    <!-- Acerca de mí -->
+    <section id="about">
+        <h2>Acerca de mí</h2>
+        <p>Profesional contable con un enfoque personalizado en la gestión financiera y fiscal. Mi misión es ayudarte a optimizar tu negocio con soluciones contables precisas y claras.</p>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Asesoría Fiscal</h3>
+            <p>Brindo asesoramiento en temas fiscales y tributarios para que cumplas con todas tus obligaciones legales.</p>
+        </div>
+        <div class="service">
+            <h3>Contabilidad Financiera</h3>
+            <p>Manejo y optimizo la contabilidad de tu empresa, asegurando una información financiera clara y precisa.</p>
+        </div>
+        <div class="service">
+            <h3>Consultoría para PYMES</h3>
+            <p>Ofrezco soluciones contables adaptadas a pequeñas y medianas empresas para mejorar su eficiencia financiera.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="nameInput" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="emailInput" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="messageInput" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
